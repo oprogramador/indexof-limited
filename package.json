@@ -15,7 +15,15 @@
     "type": "git",
     "url": "git+https://github.com/oprogramador/indexof-limited.git"
   },
-  "keywords": ["indexof", "index", "of", "string", "substring", "search", "limited"],
+  "keywords": [
+    "indexof",
+    "index",
+    "of",
+    "string",
+    "substring",
+    "search",
+    "limited"
+  ],
   "author": "oprogramador",
   "license": "MIT",
   "bugs": {
