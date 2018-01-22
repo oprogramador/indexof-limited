@@ -1,14 +1,14 @@
 {
   "name": "indexof-limited",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JavaScript library to find the first occurence of a substring inside a long string limited to initial and end position",
   "main": "build/index.js",
   "scripts": {
-    "build": "rm -rf build && babel src --out-dir build --ignore tests",
+    "build": "rm -rf build && babel src --out-dir build --ignore tests/",
     "create-project-symlink": "scripts/create-project-symlink.sh",
     "lint": "eslint src",
     "postinstall": "npm run create-project-symlink",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "test": "mocha -r babel-register --recursive src/tests --timeout 5000"
   },
   "repository": {
