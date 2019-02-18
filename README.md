@@ -14,7 +14,7 @@ It works in the same way as `String.prototype.indexOf` when no end limit specifi
 `npm install --save indexof-limited`
 
 ## usage
-```
+```js
 const indexOf = require('indexof-limited');
 
 const longtext = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua';
