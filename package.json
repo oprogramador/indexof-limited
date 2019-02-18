@@ -1,6 +1,6 @@
 {
   "name": "indexof-limited",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "JavaScript library to find the first occurence of a substring inside a long string limited to initial and end position",
   "main": "build/index.js",
   "scripts": {
